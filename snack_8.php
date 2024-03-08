@@ -5,13 +5,13 @@ Con un form passare come parametri GET name, mail e age e verificare (cercando i
 */
 
 //checking that name is set and its length is longer than 3
-var_dump('name: ', isset($_GET['name']) && strlen($_GET['name']) > 3);
+#var_dump('name: ', isset($_GET['name']) && strlen($_GET['name']) > 3);
 
 //checking if mail is set and it contains the @ value
-var_dump('mail:', isset($_GET['mail']) && str_contains($_GET['mail'], '@'));
+#var_dump('mail:', isset($_GET['mail']) && str_contains($_GET['mail'], '@'));
 
 //checking if is contained and if it's an integer
-var_dump('age: ', isset($_GET['age']) && is_numeric($_GET['age']));
+#var_dump('age: ', isset($_GET['age']) && is_numeric($_GET['age']));
 
 $canAccess;
 
